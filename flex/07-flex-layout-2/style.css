@@ -13,12 +13,13 @@ body {
   height: 32px;
   background: darkmagenta;
   color: white;
-  font-weight: bolder;
+  font-weight: 900px;
   justify-content: left;
   font-size: larger;
-  padding: 8px;
+  padding: 16px;
   align-items: center;  
   flex-shrink: 0;
+  font-size: 32px;
 }
 
 .footer {
@@ -26,7 +27,7 @@ body {
   height: 32px;
   background: #eee;
   color: darkmagenta;
-  padding: 8px;
+  padding: 16px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
@@ -59,7 +60,7 @@ body {
 }
 
 .card-arranger{
-  margin: 32px;
+  padding: 32px;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
